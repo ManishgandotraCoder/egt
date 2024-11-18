@@ -1,0 +1,16 @@
+body {
+  background-image: linear-gradient(to right, #50a1f3 0%, #7ff3e5 100%);
+}
+.parent-component {
+  background-color: rgb(218, 217, 217);
+  height: 100vh;
+  margin: 0;
+}
+.egt {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: cursive;
+  background-image: linear-gradient(to right, #f713e0, #930423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

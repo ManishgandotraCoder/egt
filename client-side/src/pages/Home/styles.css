@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  justify-content: space-between; /* Places one item on the left and the other on the right */
+  align-items: center; /* Ensures vertical alignment (if needed) */
+  width: 100vw; /* Optional: adjust based on your layout */
+  background-color: #1890ff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.item-left {
+  padding-left: 16px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.item-right {
+  padding-right: 16px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+.home {
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.error {
+  color: rgba(234, 6, 6, 0.961);
+}
+
+.success {
+  color: green;
+  cursor: pointer;
+  text-decoration: underline;
+}

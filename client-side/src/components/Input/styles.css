@@ -1,0 +1,65 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.inputStyle {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 1px solid rgb(48, 153, 239);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputStyle:focus {
+  outline: none;
+  border-color: rgb(0, 102, 204);
+  box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+}
+
+.inputError {
+  border-color: red;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -5px;
+}
+
+.inputWrapper {
+  margin-bottom: 30px;
+}
+
+.inputField {
+  width: calc(100% - 24px);
+  padding: 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+  border-radius: 20px;
+}
+
+.inputField:focus {
+  border-color: #1890ff;
+  outline: none;
+}
+
+.errorField {
+  border-color: #ff4d4f;
+}
+
+.errorText {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+  text-align: left;
+}
+
+.forgotPasswordStyle {
+  margin-top: 10px;
+}

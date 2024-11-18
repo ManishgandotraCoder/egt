@@ -1,0 +1,61 @@
+.no-page-found {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.error-code {
+  font-size: 3rem;
+  color: #ff0000;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.go-back-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-button:hover {
+  background-color: #0056b3;
+}
+
+.btnAuthWidth {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  color: #0056b3;
+  background-color: white;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+}
+
+.btnAuthWidth:hover {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  background-color: #0056b3;
+  color: white;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+}

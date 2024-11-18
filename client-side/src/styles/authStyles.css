@@ -1,0 +1,125 @@
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: right; /* Center the login box on smaller screens */
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../public/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Box styles */
+.boxStyle {
+  background: rgb(236, 236, 237);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out, slideInLeft 0.8s ease-in-out;
+}
+
+/* Slide In Left Animation for the box */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade In Animation for the box */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading */
+.headingStyle {
+  font-size: 28px;
+  color: #3b3b3b;
+  font-weight: bold;
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+
+/* Form styles */
+.formStyle {
+  max-width: 100%;
+  opacity: 0;
+  animation: slideInUp 0.8s ease-in-out forwards, slideInLeft 0.8s ease-in-out;
+}
+
+/* Slide In Animation for the form */
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Forgot Password Link */
+.forgotPasswordStyle {
+  display: block;
+  text-align: right;
+  color: #1890ff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.forgotPasswordStyle:hover {
+  color: #40a9ff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    background-image: url("../../public/bg.png");
+    justify-content: center;
+    align-items: flex-start; /* Align box near the top */
+    padding: 20px;
+  }
+
+  .boxStyle {
+    margin-right: 0;
+    padding: 30px;
+    width: 90%;
+  }
+
+  .headingStyle {
+    font-size: 24px;
+  }
+
+  .formStyle {
+    opacity: 1; /* Ensure form is always visible on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .headingStyle {
+    font-size: 20px;
+  }
+
+  .boxStyle {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+/* Login Button */
+.ButtonStyle {
+  width: 100%;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.ButtonStyle:hover {
+  background-color: #40a9ff;
+  box-shadow: 0 4px 15px rgba(24, 144, 255, 0.3);
+}
